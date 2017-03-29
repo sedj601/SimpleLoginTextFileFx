@@ -43,9 +43,9 @@
                </children>
             </StackPane>
             <TextField fx:id="tfEnterUserName" promptText="Enter username" GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="2" />
+            <TextField fx:id="tfEnterPassword" promptText="Enter password" GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="3" />
               <Button fx:id="btnAddUser" onAction="#handleBTNAddUser" text="Add User" GridPane.columnIndex="3" GridPane.columnSpan="2" GridPane.rowIndex="5" />
             <Button fx:id="btnGoToLoginScreen" mnemonicParsing="false" onAction="#handleBTNGoToLoginScreen" text="Go to login screen" GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.halignment="CENTER" GridPane.rowIndex="6" />
-            <TextField fx:id="tfEnterPassword" promptText="Enter password" GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="3" />
          </children>
       </GridPane>
     </children>
